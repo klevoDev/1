@@ -1,39 +1,107 @@
 .wrapper {}
 
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.subheading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 113%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #0C5408;
+    text-shadow: 2px 2px 3px #0C5408;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: justify;
+    letter-spacing: 0.015em;
+}
+
+
 .page {}
 
-.page__lorem {}
+
+.page__lorem {
+    margin-bottom: 41px;
+}
 
 .lorem {}
 
-.container {}
+.lorem__heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #053703;
+    text-shadow: 2px 2px 4px #0A5408;
 
-.lorem__heading {}
+    margin-bottom: 25px;
+}
 
-.lorem__text {}
+.lorem__text {
+    margin-bottom: 16px;
+}
 
-.lorem__underline {}
+.lorem__desc {}
 
-.lorem__link {}
+.lorem__underline {
+    text-decoration: underline;
+}
 
-.lorem__error {}
+.lorem__link {
+    text-decoration: underline;
+    color: #59AA55;
+}
 
-.page__fish {}
+.lorem__error {
+    text-decoration: line-through;
+}
+
+
+.page__fish {
+    margin-bottom: 40px;
+}
 
 .fish {}
 
-.fish__subheading {}
+.fish__subheading {
+    margin-bottom: 9px;
+}
 
-.fish__wrap-image {}
+.fish__wrap-image {
+    text-align: center;
+}
 
 .fish__image {}
+
 
 .page__example {}
 
 .example {}
 
-.example__subheading {}
+.example__subheading {
+    margin-bottom: 20px;
+}
 
 .example__list {}
 
-.example__item {}
+.example__item:last-child {
+    margin-bottom: 0px;
+}
+
+.example__item {
+    margin-bottom: 16px;
+}
